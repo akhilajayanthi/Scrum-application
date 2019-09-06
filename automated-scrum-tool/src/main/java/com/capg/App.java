@@ -56,7 +56,7 @@ public class App {
 				teamList.get(appli).getMemName(), actionItem.get(appli), update.get(appli), date);
 		
 		 System.out.format("%5s%15s%30s%24s%17s",scrumDetails1.getApplication().getAppName(), teamList.get(appli1).getMemName(), actionItem.get(appli1), update.get(appli1), date);
-		 
+		 System.out.println("end");
 	
 		
 	}
