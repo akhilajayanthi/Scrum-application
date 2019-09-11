@@ -1,29 +1,32 @@
 package com.capg.automated_scrum_tool;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-    extends TestCase
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import com.capg.Application;
+import com.capg.ScrumDetails;
+import com.capg.TeamMembers;
+
+
+public class AppTest
+
 {
-   
-    public AppTest( String testName )
-    {
-        super( testName );
-    }
+	
+	
+	@Before
+	public void beforeTest() {
+		
+		//Application app = new Application("hsufds","hsah",);
+		//TeamMembers members = new TeamMembers();
+		//ScrumDetails scrum = new ScrumDetails();
+		
+	}
 
-    
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
-
-    public void testApp()
-    {
-        assertTrue( true );
-    }
+	@Test
+	public void testApp() {
+		assertTrue(true);
+	}
 }
